@@ -4,6 +4,7 @@
  * I used the styling of Reuter's headline for the 'mainQuote,' 
  * the styling of the article's text for the 'wholeQuote,' 
  * and the styling of the picture's caption for the 'source.'
+ * The styling for the 'Read More' is the same styling as the 'source'
  * 
  * Another note: the size of the fonts have been adjusted: the original size somehow renders much larger on my page than Reuter's.
  * Everything else was kept the same except for Reuter's proprietary font for its headline.
@@ -45,4 +46,18 @@
 	color: #666666;
 	font-size: 0.9em;
 	line-height: 1.5em;
+}
+
+.readMore {
+	color: red;
+	font-size: 0.9em;
+	line-height: 1.5em;
+}
+
+.moreInfo {
+	display: none;
+}
+
+.expanded .moreInfo { 
+	display: block;
 }
